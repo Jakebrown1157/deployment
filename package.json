@@ -1,28 +1,35 @@
 {
-  "name": "deployment",
+  "name": "breads",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "engines": {
     "node": "16.16.0"
   },
+  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jakebrown1157/deployment.git"
+    "url": "git+https://github.com/Jakebrown1157/breads.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Jakebrown1157/deployment/issues"
+    "url": "https://github.com/Jakebrown1157/breads/issues"
   },
-  "homepage": "https://github.com/Jakebrown1157/deployment#readme",
+  "homepage": "https://github.com/Jakebrown1157/breads#readme",
   "dependencies": {
     "dotenv": "^16.0.3",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "express-react-views": "^0.11.0",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.7.5",
+    "nodemon": "^2.0.14-alpha.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
   }
 }
